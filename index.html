@@ -4,10 +4,42 @@
 <head>
     <meta charset="utf-8">
     <title>Cút Lộn - Links</title>
+    <meta name="viewport"content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded',()=>{
+            VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            scaleMobile:1.00,
+            color2: 0xff00f0,
+            wingSpan:40.00,
+            separation: 100.00,
+            alignments:77.0,
+            cohesion:5.00,
+            quantity:1.00
+        })
+        setTimeout(()=>{
+            const main= document.querySelector('main')
+            main.style.opacity=1
+            main.style.filter='blur(0px)'
+        },1000)
+        })
+        
+    </script>
 </head>
 
 <body>
+    <div id="vanta"></div>
     <main>
         <header>
             <img src="./images/brian.jpg" />
@@ -16,25 +48,25 @@
         <ul>
             <li>
                 <a href="/">
-                    <img src="./images/homepage.svg" alt="Homepage" width="20"/>
+                    <img src="./images/homepage.svg" alt="Homepage" width="20" />
                     Ofiicial Website
                 </a>
             </li>
             <li>
                 <a href="https://www.youtube.com/channel/UCHsR0ufBHF03UayqmcJ0HCQ">
-                    <img src="./images/youtube.svg" alt="Youtube" width="20"/>
+                    <img src="./images/youtube.svg" alt="Youtube" width="20" />
                     Youtube
                 </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/thuong.kinh.37051/">
-                    <img src="./images/instagram.svg" alt="Instagram" width="20"/>
+                    <img src="./images/instagram.svg" alt="Instagram" width="20" />
                     Instagram
                 </a>
             </li>
             <li>
                 <a href="https://github.com/Ggwp-afked">
-                    <img src="./images/github.svg" alt="Github" width="20"/>
+                    <img src="./images/github.svg" alt="Github" width="20" />
                     Github
                 </a>
             </li>
