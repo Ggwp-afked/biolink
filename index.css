@@ -1,4 +1,3 @@
-
 body,
 html {
     margin: 0;
@@ -11,6 +10,7 @@ body {
     background: url(./images/bg1.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
 .text {
     width: 100%;
     height: 100vh;
