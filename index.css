@@ -19,15 +19,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .text h1 {
     font-size: 40px;
     font-weight: 600;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 span {
-    color: yellow;
+    color: #778beb;
 }
 
 

@@ -5,9 +5,9 @@ function removeElementsByClass(className){
     }
 }
 var typed = new Typed(".auto-type", {
-    strings: ["Hello, I'm Brian (Cút)"],
-    typeSpeed: 45,
-    backSpeed: 40,
+    strings: ["Bonjour, je m'appelle Brian (Cút)"],
+    typeSpeed: 50,
+    backSpeed: 50,
     loop: false,
     showCursor: true,
     onComplete: (typed) => {
